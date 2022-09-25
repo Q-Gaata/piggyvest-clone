@@ -18,8 +18,6 @@ nav{
     text-align: center;
     margin: 1em;
     font-size: 18px;
-    overflow: hidden;
-    position: fixed;
     top: 0; 
     width: 100%;
 }
@@ -29,15 +27,16 @@ nav{
     display: flex;
 }
 
-.logoimage{
+/* .logoimage{
     width: 80%;
     height: auto;
-}
+} */
 
 .newpage{
     margin: auto 2%;
     list-style-type: none;
     font-size: 0.9em;
+    font-weight: 300;
 }
 
 .newpage>a{    
