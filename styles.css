@@ -29,7 +29,11 @@ header {
     display: flex;
     text-align: center;
     font-size: 18px;
+
     padding: 20px ;
+
+    
+
     width: 100%;
     background: white;
 }
@@ -40,15 +44,17 @@ header {
 }
 
 
+
 .logoimage{
     margin-right: 50px;
-    height: auto;
 }
+
 
 .newpage{
     margin: auto 2%;
     list-style-type: none;
     font-size: 0.9em;
+    font-weight: 300;
 }
 
 .newpage>a{    
