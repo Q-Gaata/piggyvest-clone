@@ -10,20 +10,22 @@ body {
     font-family: 'DM Sans', sans-serif!important;
     color: #353535;
     font-size: 16px;
-
 }
 
 nav{
     display: flex;
     text-align: center;
-    margin: 1em;
+    padding: 1em;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     font-size: 18px;
-    top: 0; 
     width: 100%;
+    background-color: #fff;
+    z-index: 1;
+    border: 0.5px gray;
+    box-shadow:0px 2px 2px rgba(206, 203, 203, 0.76)
 }
 
 .links{
@@ -46,6 +48,10 @@ nav{
 .newpage>a{    
     text-decoration: none;
     color: #0c1825;
+}
+
+.invest-link>a :active{
+    color: #7913e5;    
 }
 
 .user{
@@ -154,4 +160,42 @@ footer a {
     display: flex;
     justify-content: flex-end;
     gap: 8px;
+}
+.container{
+    margin-top: 5em;
+}
+
+.invest-type{
+    display: flex;
+    justify-content: center;
+}
+
+.each-type{
+    background-color: #f9f9f9;
+    width: 30%;
+    margin: 1.5em 1%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.invest-image{
+    width: 3em;
+}
+
+.info{
+    display: flex;
+    justify-content: center;;
+}
+
+.info-text{
+    width: 60%;
+    
+}
+.info-image{
+   width: 40%;
+}
+
+
+.recent{
+    margin-top: 5em;
 }
