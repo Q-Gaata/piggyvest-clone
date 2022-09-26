@@ -13,17 +13,29 @@ body {
 
 }
 
-nav{
-    display: flex;
-    text-align: center;
-    margin: 1em;
+header {
+    margin-bottom: 100px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    box-shadow: 0 0 7px 0 #ced3da;
+    z-index: 1000!important;
+    
+    
+}
+
+.top-nav{
+    display: flex;
+    text-align: center;
     font-size: 18px;
-    top: 0; 
+
+    padding: 20px ;
+
+    
+
     width: 100%;
+    background: white;
 }
 
 .links{
@@ -31,10 +43,12 @@ nav{
     display: flex;
 }
 
-/* .logoimage{
-    width: 80%;
-    height: auto;
-} */
+
+
+.logoimage{
+    margin-right: 50px;
+}
+
 
 .newpage{
     margin: auto 2%;
@@ -50,10 +64,11 @@ nav{
 
 .user{
     display: flex;
+    margin-left: 30px;
 }
 
 .sign-in-button{
-    padding: 1em;
+    padding: 0.8em;
     margin-right: 1em;
     color: #0c1825;
     background-color: #fff;
@@ -67,10 +82,11 @@ nav{
 .sign-in-button:hover{
     border: 1px solid #3457D5;
     color: #3457D5;
+    cursor: pointer;
 }
 
 .register-button{
-    padding: 1em 1.5em;
+    padding: 0.8em 1.5em;
     color: #fff;
     background: #0c1825;
     transition: background-color .8s;
@@ -82,6 +98,7 @@ nav{
 .register-button:hover{
     border: 1px solid #3457D5;
     background: #3457D5;
+    cursor: pointer;
 }
 
 li{
@@ -101,6 +118,7 @@ h4, .socials {
 footer {
     padding: 70px 20px;
     background: white;
+    margin-top: 100px;
 }
 footer a {
     font-size: 13px;
@@ -154,4 +172,210 @@ footer a {
     display: flex;
     justify-content: flex-end;
     gap: 8px;
+}
+
+/* ****First Section****** */
+.first {
+    margin: 120px 40px;
+    
+}
+
+.first-first {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+    gap: 150px;
+}
+
+.first .left {
+    max-width: 500px;
+    padding-top: 70px;
+}
+
+.first .left h1 {
+    font-size: 60px;
+    color: #0c1825;
+}
+
+.first-first p {
+    padding: 20px 0;
+}
+
+.left p {
+    line-height: 25px;
+}
+
+.free-button {
+    padding: 16px 30px;
+    background: #0c1825;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.free-button a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.side {
+    display: flex;
+    gap: 20px;
+}
+.side button {
+    padding: 16px 16px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+
+.side button:hover {
+    transform: translateY(-10px);
+}
+
+.side button i {
+    font-size: 22px;
+}
+
+.small {
+    width: 220px;
+}
+
+.right .image {
+    position: relative;
+}
+
+.right .image .red {
+    position: absolute;
+    top: 100px;
+    left: -80px;
+
+}
+
+.right .image .gr {
+    position: absolute;
+    bottom: 40px;
+    right: -80px;
+
+}
+
+.second {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+.second .left {
+    max-width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.second .left img {
+    width: 100%;
+}
+
+.second .right {
+    max-width: 700px;
+    
+}
+
+.second .right h1 {
+    font-size: 35px;
+}
+
+.second .right p {
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+}
+
+.second .right a {
+    color: blue;
+}
+
+.second .right a i {
+    font-size: 10px;
+    
+}
+
+.third img {
+    width: 50px;
+}
+
+.third {
+    padding: 80px 0;
+}
+
+.third-wrapper {
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+    gap: 100px;
+    position: relative;
+}
+
+.third .left {
+    max-width: 300px;
+    margin-top: 60px;
+}
+
+.third .left h1  {
+    font-size: 35px;
+    line-height: 45px;
+
+}
+
+.third .left p {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.third .left a {
+    padding: 15px 15px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.third .right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+}
+
+.third .right .card {
+    background-color: #f9f9f9;
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.third .right .card h2 {
+    padding-top: 23px;
+    padding-bottom: 15px;
+} 
+
+.third .right .card p {
+    padding-bottom: 60px;
+}
+
+.third .right .card div {
+    display: flex;
+    gap: 10px;
+}
+
+.move-right {
+    transform: translateX(15px);
+    transition: 1s;
 }
