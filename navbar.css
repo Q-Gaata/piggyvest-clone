@@ -1,0 +1,86 @@
+
+/* Header and navbar */
+
+nav{
+    display: flex;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+    border: 0.5px gray;
+    box-shadow:0px 2px 2px rgba(206, 203, 203, 0.76)
+}
+
+.links{
+    width: 70%;
+    display: flex;
+}
+
+/* .logoimage{
+    width: 80%;
+    height: auto;
+} */
+
+.newpage{
+    margin: auto 2%;
+    list-style-type: none;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.newpage>a{    
+    text-decoration: none;
+    color: #0c1825;
+}
+
+.user{
+    display: flex;
+}
+
+.sign-in-button{
+    padding: 1em;
+    margin-right: 1em;
+    color: #0c1825;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    font-weight: 600;    
+    transition: border .8s,color .8s;
+    font-size: 16px;
+}
+
+.sign-in-button:hover{
+    border: 1px solid #3457D5;
+    color: #3457D5;
+}
+
+.register-button{
+    padding: 1em 1.5em;
+    color: #fff;
+    background: #0c1825;
+    transition: background-color .8s;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;  
+}
+
+.register-button:hover{
+    border: 1px solid #3457D5;
+    background: #3457D5;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+a{
+    color: #353535;
+    text-decoration: none;
+}

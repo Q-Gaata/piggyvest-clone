@@ -1,0 +1,63 @@
+/* ---------------Footer---------------- */
+
+h4, .socials {
+    margin-bottom: 30px;
+}
+
+footer {
+    padding: 70px 20px;
+    background: white;
+}
+footer a {
+    font-size: 13px;
+    font-weight: 300;
+    
+}
+
+.container-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+}
+
+.bottom-items {
+    text-align: center;
+    max-width: 740px;
+   margin: 40px auto;
+   font-size: 13px;
+}
+
+.bottom-items .down1 {
+    margin-bottom: 30px;
+}
+
+.bottom-items .down2 {
+    color: #083e9e;
+    font-weight: 500;
+}
+
+.contact {
+    text-align: right;
+    max-width: 300px;
+    margin-left: 100px;
+}
+
+.contact p{
+    margin: 20px 0;
+}
+.features {
+    margin-right: 60px;
+    margin-left: 20px;
+}
+
+.socials a {
+    font-size: 25px;
+    
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}

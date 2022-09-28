@@ -1,0 +1,18 @@
+@import url('https://db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif!important;
+    color: #353535;
+    font-size: 16px;
+}
+
+.container{
+    margin-top: 5em;
+}
