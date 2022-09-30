@@ -142,7 +142,7 @@ body {
 }
 
 /* -------Info Section----- */
-.info{
+.information{
     display: flex;
     justify-content: center;
     margin-top: 5em;
@@ -262,4 +262,172 @@ body {
 .sold-out:hover{
     color: rgb(135, 55, 81);   
     background-color: rgba(179, 46, 88, 0.067);
+}
+
+/*-----------Section Six-----------------*/
+.six {
+    margin: 100px 0;
+}
+
+.six .wrapper {
+    display: flex;
+    gap: 100px;
+    padding: 0 70px;
+}
+
+.six .wrapper .left {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.six .wrapper .card {
+    position: relative;
+    top: 0%;
+    margin-bottom: 20px;
+    padding: 13px;
+    animation: moving 20s linear infinite;
+}
+
+
+.six .wrapper .card3, .six .wrapper .card4 {
+    width: 400px;
+    height: 150px;
+    background: #f9f9f9;
+}
+
+.six .wrapper .card1 {
+    width: 400px;
+    height: 450px;
+    
+    background: #f9f9f9;
+}
+
+.six .wrapper .card2 {
+    width: 400px;
+    height: 250px;
+    
+    background: #f9f9f9;
+}
+
+
+
+.six .wrapper img {
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.six .wrapper .profile {
+    display: flex;
+    gap: 20px;
+    padding-top: 14px;
+}
+
+
+.six .wrapper .left p {
+    font-size: 13px;
+}
+
+.six .wrapper .left small {
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.six .wrapper .left h6 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.six .wrapper .right {
+    padding-top: 50px;
+}
+
+.six .wrapper .right p {
+    width: 420px;
+    padding: 30px 0;
+    font-size: 17px;
+    line-height: 1.75;
+}
+
+.customers{
+    font-family: "U8";
+    font-size: 36px;
+    color: black;
+    font-weight: bolder;
+}
+
+.free-button {
+    padding: 16px 30px;
+    background: #0c1825;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.free-button a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.side {
+    display: flex;
+    gap: 20px;
+}
+.side button {
+    padding: 16px 16px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.side button:hover {
+    transform: translateY(-10px);
+}
+
+.side button i {
+    font-size: 22px;
+}
+
+@keyframes moving {
+    0% {
+        top: 0px
+    }
+
+    100% {
+        top: -600px
+    }
+}
+
+/* ---------Section Seven-------- */
+.seven {
+    background: #f9f9f9;
+}
+
+.seven .wrapper {
+    display: flex;
+    gap: 200px;
+    padding: 60px 100px;
+
+}
+
+.seven .wrapper .left h2 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.seven .wrapper .right {
+    display: flex;
+    gap: 50px;
+}
+.seven .wrapper .right .image {
+    width: 150px;
+}
+
+.seven .wrapper .right .image  img {
+    width: 100%;
 }
