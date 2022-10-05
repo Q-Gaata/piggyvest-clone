@@ -49,6 +49,7 @@ body {
 .savings-container{
     margin: 2em 0;
 }
+
 .savings{
     text-decoration: none;
     color: white;
@@ -416,7 +417,7 @@ body {
 }
 
 .seven .wrapper .left h2 {
-    font-size: 35px;
+    font-size: 26px;
     font-weight: bold;
     padding-left: 20px;
 }

@@ -34,7 +34,6 @@ header {
     display: flex;
     text-align: center;
     font-size: 18px;
-
     padding: 20px ;
     width: 100%;
     background: white;
@@ -641,7 +640,7 @@ svg {
 }
 
 .seven .wrapper .left h2 {
-    font-size: 35px;
+    font-size: 26px;
     font-weight: bold;
     padding-left: 20px;
 }
