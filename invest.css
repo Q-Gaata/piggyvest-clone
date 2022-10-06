@@ -226,13 +226,13 @@ body {
     flex-direction: column;
     width: 30%;
     margin: 1em;
-    padding-bottom: 2em;
     border-radius: 20px;
     background-color: #f9f9f9;
 }
 
-.opportunities-type :hover{
-    background-color: rgb(255, 255, 255);
+.opportunities-type:hover{
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2);
+    transition-duration: 1s;
 }
 
 .opportunities-image{
@@ -280,11 +280,12 @@ body {
 
 .feature-content{
     padding: 1em 2em;
+    padding-bottom: 3em;
 }
 
 .feature-topic{
     font-family: "U8";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
     color: black;
     margin: 1em 0;
@@ -293,7 +294,7 @@ body {
 
 .feature-component{
     display: flex;
-    margin-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 .insider{
