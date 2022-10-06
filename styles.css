@@ -18,16 +18,20 @@ button {
     border: none;
 }
 
-header {
-    margin-bottom: 100px;
+.sticky {
+    /* margin-bottom: 100px; */
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     box-shadow: 0 0 7px 0 #ced3da;
     z-index: 1000!important;
+    transition: all 0.5s ease;
     
-    
+}
+
+.sticky + .first {
+    padding-top: 90px;
 }
 
 .top-nav{
@@ -122,6 +126,10 @@ h4, .socials {
 .first {
     margin: 120px 40px;
     
+}
+
+#first1 {
+    margin-top: 0;
 }
 
 .first-first {
@@ -405,6 +413,9 @@ svg {
     margin-top: 5px;
 }
 
+.third .right .card .last-item {
+    transition: all 0.5s ease;
+}
 .four {
     padding: 100px 0;
     padding-bottom: 150px;
