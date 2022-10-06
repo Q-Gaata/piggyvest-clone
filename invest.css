@@ -24,9 +24,12 @@ body {
 
 /* Intro */
 .intro{
-    padding: 2em 1em;
-    margin-bottom: 4em;
+    padding: 8em 1em;
+    margin: 0.5em 0;
     display: flex;
+    /* background-image: #7913E5;
+    background-size: 25% 100%;
+    background-position: 70% 50%; */
 } 
 
 .intro-left{
@@ -35,11 +38,17 @@ body {
 }
 
 .big-header{
-    font-size: 70px;
+    font-size: 60px;
     font-family: "U8";
     color: black;
     font-weight: 800;
 }
+
+.invest-go{
+    width: 80%;
+    font-size: 60px;
+}
+
 .intro-text{
     margin-bottom: 10px;
     color: #353535;
@@ -70,7 +79,7 @@ body {
     width: 60%;
 }
 
-.small {
+.smaller {
     width: 70%;
 }
 
@@ -82,18 +91,31 @@ body {
     position: relative;
 }
 
-.intro-right .intro-images .card1 {
+.intro-right .intro-images .card01 {
     position: absolute;
     top: 30%;
     left: -30%;
 
 }
 
-.intro-right .intro-images .card2 {
+.intro-right .intro-images .card02 {
     position: absolute;
     top: 55%;
     left: -30%;
 
+}
+
+.cross{
+    position: absolute;
+    bottom: 95%;
+    right: 95%;
+}
+
+.dots{
+    position: absolute;
+    font-size: 40px;
+    bottom: 60%;
+    left: 62%;
 }
 
 /* -------Types------- */
@@ -147,7 +169,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 5em;
-    margin-bottom: 10em;
+    margin-bottom: 6em;
 }
 
 .info-text{
@@ -157,20 +179,25 @@ body {
 }
 
 .info-header{
-    font-size: 50px;
+    font-size: 40px;
     width: 90%;
     font-weight: 900;
     color: #fff;
+    line-height: 1.5;
 }
 
 .info-info{
     width: 75%;
     color: white;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .info-image{
    width: 40%;
+   background-image: url("https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/image_10ee373879/image_10ee373879.png"); 
+   background-repeat: no-repeat; 
+   background-size: cover; 
+   background-position: center center;
 }
 
 .info-image>img{
@@ -179,14 +206,14 @@ body {
 }
 
 /* -------Opportunities------- */
-.opportunities{
-    margin-top: 5em;
-}
+/* .opportunities{
+    
+} */
 
 .feature-header{
     font-size: 50px;
     text-align: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 30px;
 }
 
 .invest-features{
@@ -195,22 +222,60 @@ body {
 }
 
 .opportunities-type{
+    display: flex;
+    flex-direction: column;
     width: 30%;
     margin: 1em;
+    padding-bottom: 2em;
     border-radius: 20px;
     background-color: #f9f9f9;
-    padding-bottom: 2em;
 }
 
 .opportunities-type :hover{
     background-color: rgb(255, 255, 255);
 }
 
-.opportunities-type> img{
+.opportunities-image{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 100%;
-    height: 100px;
+    height: 120px;
+}
+
+.image1{
+    background-image: url("./images/invest/thumb1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image2{
+    background-image: url("./images/invest/thumb2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image3{
+    background-image: url("./images/invest/thumb3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.image4{
+    background-image: url("./images/invest/thumb4.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image5{
+    background-image: url("./images/invest/thumb5.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.image6{
+    background-image: url("./images/invest/thumb6.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .feature-content{
@@ -247,7 +312,6 @@ body {
     border-radius: 20px;
     color: rgb(63, 154, 63);
     background-color: rgba(63, 154, 63, 0.067);
-    margin-bottom: 20em
 }
 
 .feature-link:hover{
