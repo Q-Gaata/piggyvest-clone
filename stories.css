@@ -29,8 +29,8 @@ body {
 } 
 
 .intro-left{
-    width: 50%;
-    margin: auto 0 auto 3em ;
+    width: 48%;
+    margin: auto 5em auto 3em ;
 }
 
 .big-header{
@@ -66,7 +66,7 @@ body {
     margin-bottom: 2em;
     color: #353535;
     /* font-size: 16.5px; */
-    width: 80%;
+    width: 75%;
     line-height: 1.5;
 }
 
@@ -102,10 +102,40 @@ body {
     right: 60px;
 }
 
-.fa-stop-circle{
-    position: relative;
-    color: rgb(206, 224, 206);
-    top: -200px;
+.circle{
+    position: absolute;
+    top: 92%;
+    left: 91%;
+}
+
+.heart1{
+    position: absolute;
+    top: 43%;
+    left: -15%;
+}
+
+.dot1{
+    position: absolute;
+    top: 52%;
+    left: -16%;
+}
+
+.cross{
+    position: absolute;
+    top: -2%;
+    left: -15%;
+}
+
+.heart2{
+    position: absolute;
+    top: -3%;
+    right: 3%;
+}
+
+.dot2{
+    position: absolute;
+    top: 25%;
+    right: 2%;
 }
 
 /*-----------Stories Section-----------*/
