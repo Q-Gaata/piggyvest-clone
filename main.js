@@ -76,3 +76,5 @@ function cardAnimation(){
 }
 cardAnimation()
 
+console.log("status")
+

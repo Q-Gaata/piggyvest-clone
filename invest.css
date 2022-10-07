@@ -17,19 +17,18 @@ body {
     color: #7913e5;    
 }
 
+
+
 /* -----------Main Content----------- */
-.container{
-    margin-top: 5em;
-}
+/* .container{
+    margin-top: 3em;
+} */
 
 /* Intro */
 .intro{
-    padding: 8em 1em;
+    padding: 4em 1em;
     margin: 0.5em 0;
     display: flex;
-    /* background-image: #7913E5;
-    background-size: 25% 100%;
-    background-position: 70% 50%; */
 } 
 
 .intro-left{
@@ -345,6 +344,7 @@ body {
     height: 500px;
     overflow: hidden;
     position: relative;
+    
 }
 .six .wrapper .card {
     position: relative;
