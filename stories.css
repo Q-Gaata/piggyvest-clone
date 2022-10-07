@@ -13,9 +13,9 @@ body {
     font-size: 16px;
 }
 
-.container{
+/* .container{
     margin-top: 5em;
-}
+} */
 
 .stories-link>a{
     color:#2b5ed3;
@@ -23,7 +23,7 @@ body {
 
 /*-------------Intro----------*/
 .intro{
-    padding: 6em 1em 2em 1em;
+    padding: 4em 1em 2em 1em;
     margin-bottom: 4em;
     display: flex;
 } 
@@ -96,7 +96,7 @@ body {
 }
 
 .main-image{
-    width: 100%;
+    width: 95%;
     position: absolute;
     top: 30px;
     right: 60px;
@@ -111,6 +111,7 @@ body {
 /*-----------Stories Section-----------*/
 .stories-section{
     text-align: center;
+    padding-bottom: 3em;
 }
 
 .topic{
@@ -135,7 +136,36 @@ body {
 
 .story-image{
     width: 3em;
+    height: 3em;
     border-radius: 50px;
+}
+
+.image1{
+    background-image: url("./images/stories/tobenna.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image2{
+    background-image: url("./images/stories/micheal.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image3{
+    background-image: url("./images/stories/oluwadamilola.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image4{
+    background-image: url("./images/stories/joseph.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .name{
