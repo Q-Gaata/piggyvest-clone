@@ -34,13 +34,20 @@ button {
     padding-top: 90px;
 }
 
+#header1 {
+    background-color: white;
+    padding-right: 65px;
+}
+
 .top-nav{
     display: flex;
     text-align: center;
     font-size: 18px;
-    padding: 20px ;
+    padding: 20px;
     width: 100%;
     background: white;
+    margin-left: 40px;
+    margin-right: 50px;
 }
 
 .links{
@@ -300,9 +307,9 @@ h4, .socials {
 
 .third-wrapper {
     display: flex;
-    max-width: 1150px;
+    max-width: 1200px;
     margin: 0 auto;
-    gap: 100px;
+    gap: 130px;
     position: relative;
 }
 
@@ -495,7 +502,7 @@ svg {
 }
 
 .five .wrapper .left {
-    padding: 50px;
+    padding: 75px;
     
     color: white;
 
@@ -522,20 +529,28 @@ svg {
     
 }
 
-.goodswill div {
-    display: flex;
-    align-items: center;
+.five .wrapper .left .goodswill {
+    margin: -10px;
+    
 }
 
-/* .five .wrapper .right{
-    
-} */
-
-.five .wrapper .right img {
-    width: 550px;
-    height: 500px;
+.goodswill div {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+
+.five .wrapper .right .image {
+    background-image: url('images/five.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:  no-repeat;
+    height: 500px;
+    width: 600px;
+    
+    
 }
 
 .six {
