@@ -1,0 +1,147 @@
+@import url('https://db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif!important;
+    color: #353535;
+    font-size: 16px;
+}
+
+.faq-link>a{
+    color: #2b5ed3!important;    
+}
+
+/*---------FAQ Intro------------*/
+.intro{
+    text-align: center;
+}
+
+.faq-header{
+    font-size: 40px;
+    font-family: "U8";
+    font-weight: 800;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.faq-search{
+    width: 60%;
+    height: 5em;
+    border-radius: 10px;
+    padding: 0.5em 2em;
+}
+
+/*-------------Stories Info---------*/
+.stories-info{
+    display: flex;
+    margin: 5em 3em;
+}
+
+.stories-info .left{
+    width: 40%;
+    margin-right: 1em;
+}
+
+.smiling-picture{
+    width: 100%;
+}
+
+.stories-info .right {
+    width: 60%;
+    margin: auto 2em;
+    padding-left: 2em;
+}
+
+.stories-info .right p {
+    width: 420px;
+    padding: 10px 0;
+    line-height: 1.75;
+}
+
+.customers{
+    font-family: "U8";
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.free-button {
+    padding: 16px 30px;
+    background: #0c1825;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.free-button a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.side {
+    display: flex;
+    gap: 20px;
+}
+.side button {
+    padding: 16px 16px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.side button:hover {
+    transform: translateY(-10px);
+}
+
+.side button i {
+    font-size: 22px;
+}
+
+@keyframes moving {
+    0% {
+        top: 0px
+    }
+
+    100% {
+        top: -600px
+    }
+}
+
+/*-------Fetaured Section----------*/
+.seven {
+    background: #f9f9f9;
+}
+
+.seven .wrapper {
+    display: flex;
+    gap: 200px;
+    padding: 60px 100px;
+
+}
+
+.seven .wrapper .left h2 {
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.seven .wrapper .right {
+    display: flex;
+    gap: 50px;
+}
+.seven .wrapper .right .image {
+    width: 150px;
+}
+
+.seven .wrapper .right .image  img {
+    width: 100%;
+}
