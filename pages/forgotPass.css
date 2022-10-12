@@ -55,10 +55,6 @@ body {
     margin-bottom: 50px;
 }
 
-.main .field.two {
-    margin-bottom: 50px;
-}
-
 .main form input {
     width: 100%;
     padding: 20px 8px;
@@ -71,11 +67,9 @@ body {
 
 .main form input::placeholder {
     font-size: 16px;
+    padding-left: 15px;
 }
 
-.main form select option::part {
-    font-size: 20px;
-}
 
 .main .header-text {
     text-align: center;
@@ -91,6 +85,8 @@ body {
 
 .main .header-text p {
     font-size: 15px;
+    color: grey;
+    word-spacing: 3px;
 }
 
 .main .field label {
@@ -100,7 +96,7 @@ body {
 
 
 .main form a {
-    padding: 15px 170px;
+    padding: 15px 125px;
     background-color: rgb(8, 62, 158);
     border: none;
     color: white;
@@ -121,9 +117,5 @@ body {
     transition: all 0.5s ease;
 }
 .login:hover {
-    opacity: 0.5;
-}
-
-.forgot:hover {
     opacity: 0.5;
 }
