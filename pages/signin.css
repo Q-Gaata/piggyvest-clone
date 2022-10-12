@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+}
+body {
+    background: #062863;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+.container {
+    background-image: url('../images/signup1.png'), url('../images/signup4.png'), url('../images/signup2.png'), url('../images/signup3.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    height: 200px;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-size: 15%, 15%, 15%, 15%;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 480px;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 70px;
+    padding-bottom: 50px;
+    
+}
+
+.main .main-content {
+    background-color: white;
+    padding: 50px 40px;
+    padding-bottom: 60px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main .field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+
+.main .field.two {
+    margin-bottom: 50px;
+}
+
+.main form input {
+    width: 100%;
+    padding: 20px 8px;
+    background-color: #e2e8f0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.main form input::placeholder {
+    font-size: 16px;
+}
+
+.main form select option::part {
+    font-size: 20px;
+}
+
+.main .header-text {
+    text-align: center;
+    width: 400px;
+    padding-bottom: 30px;
+}
+
+.main .header-text h1 {
+    font-size: 26px;
+    color: #083e9e;
+    padding-bottom: 6px;
+}
+
+.main .header-text p {
+    font-size: 15px;
+}
+
+.main .field label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.main form a {
+    padding: 15px 170px;
+    background-color: rgb(8, 62, 158);
+    border: none;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.main form a:hover {
+    background-color: rgb(6, 43, 111);
+}
+
+.login{
+    transition: all 0.5s ease;
+}
+.login:hover {
+    opacity: 0.5;
+}

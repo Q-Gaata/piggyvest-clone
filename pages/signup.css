@@ -35,7 +35,7 @@ body {
     gap: 30px;
     margin-top: 70px;
     padding-bottom: 50px;
-    overflow: auto;
+    
 }
 
 .main .main-content {
@@ -51,17 +51,30 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .main form input, .main form select {
     width: 100%;
-    padding: 15px 8px;
+    padding: 20px 8px;
     background-color: #e2e8f0;
     outline: none;
     border: none;
     border-radius: 5px;
     
+}
+
+.main form input::placeholder {
+    font-size: 16px;
+}
+
+.main form select option {
+    font-size: 20px;
+    
+}
+
+.main form select option::part {
+    font-size: 20px;
 }
 
 .main .header-text {
@@ -71,7 +84,7 @@ body {
 }
 
 .main .header-text h1 {
-    font-size: 30px;
+    font-size: 25px;
     color: #083e9e;
     padding-bottom: 6px;
 }
@@ -81,7 +94,8 @@ body {
 }
 
 .main .field label {
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 select {
@@ -104,4 +118,11 @@ select {
 
 .main form a:hover {
     background-color: rgb(6, 43, 111);
+}
+
+.login{
+    transition: all 0.5s ease;
+}
+.login:hover {
+    opacity: 0.5;
 }
