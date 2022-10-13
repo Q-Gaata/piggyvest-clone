@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8');
+
 
 *{
     padding: 0;
@@ -10,6 +12,7 @@ body {
     font-family: 'DM Sans', sans-serif!important;
     color: #353535;
     font-size: 16px;
+    overflow-x: hidden;
 
 }
 
@@ -101,15 +104,15 @@ button {
     padding: 0.8em 1.5em;
     color: #fff;
     background: #0c1825;
-    transition: background-color .8s;
+    transition: all 0.5s ease;
     border-radius: 10px;
     font-weight: 600;
     font-size: 16px;  
 }
 
 .register-button:hover{
-    border: 1px solid #3457D5;
-    background: #3457D5;
+    /* border: 1px solid #3457D5; */
+    background: #0d60d8;
     cursor: pointer;
 }
 
@@ -153,8 +156,11 @@ h4, .socials {
 }
 
 .first .left h1 {
+    font-family: 'U8', sans-serif!important;
+    font-weight: bold;
     font-size: 60px;
     color: #0c1825;
+    line-height: 80px;
 }
 
 .first-first p {
@@ -170,7 +176,14 @@ h4, .socials {
     background: #0c1825;
     border-radius: 10px;
     margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
+
+.free-button:hover {
+    background-color: #0d60d8;
+}
+
 
 .free-button a {
     color: white;
@@ -335,7 +348,13 @@ h4, .socials {
     background-color: black;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
     
+}
+
+.third .left a:hover {
+    background-color: #0d60d8;
 }
 
 .third .right {
@@ -667,9 +686,10 @@ svg {
 }
 
 .seven .wrapper .left h2 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 25px;
+    
 }
 .seven .wrapper .right {
     display: flex;
@@ -679,8 +699,52 @@ svg {
     width: 150px;
 }
 
+.reveal {
+    position: relative;
+    transform: translateX(-30px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.reveal:nth-of-type(odd){
+    transform: translateY(-60px);
+    transition: all 3s ease;
+}
+
+.reveal.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 .seven .wrapper .right .image  img {
     width: 100%;
+}
+
+.box, .box2 {
+    position: relative;
+    transform: translateX(-200%);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+
+}
+
+.box:nth-of-type(even){
+    transform: translateX(200%);
+    transition: all 2s ease-in-out;
+}
+
+.box2:nth-of-type(even){
+    transform: translateX(200%);
+    transition: all 2s ease-in-out;
+}
+
+.box.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.box2.show {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 footer {

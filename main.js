@@ -4,6 +4,7 @@ let divCardSimple = document.querySelectorAll('.right .card')
 let lastItems = document.querySelectorAll('.last-item')
 
 
+
 window.addEventListener('scroll', () => {
     var header = document.querySelector('header')
     var sticky = header.offsetTop
@@ -76,5 +77,47 @@ function cardAnimation(){
 }
 cardAnimation()
 
-console.log("status")
+
+window.addEventListener('scroll', () => {
+    let featureAnimate = document.querySelectorAll('.reveal')
+   featureAnimate.forEach((feature) => {
+    let windowHeight = window.innerHeight;
+    let featureTop = feature.getBoundingClientRect().top;
+    let windowPoint = 150;
+
+    if(featureTop < windowHeight - windowPoint){
+        feature.classList.add('active')
+    } else {
+        feature.classList.remove('active')
+    }
+   })
+})
+
+window.addEventListener('load', () => {
+    let boxes = document.querySelectorAll('.box2')
+   boxes.forEach((box) => {
+    let windowHeight = window.innerHeight;
+    let boxTop = box.getBoundingClientRect().top;
+
+    if(boxTop < windowHeight){
+        box.classList.add('show')
+    }
+   })
+})
+
+
+window.addEventListener('scroll', () => {
+    let boxes = document.querySelectorAll('.box')
+   boxes.forEach((box) => {
+    let windowHeight = window.innerHeight;
+    let boxTop = box.getBoundingClientRect().top;
+
+    if(boxTop < windowHeight){
+        box.classList.add('show')
+    }
+   })
+})
+
+
+
 
