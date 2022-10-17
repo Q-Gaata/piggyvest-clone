@@ -2,6 +2,7 @@
 @import url('https://db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8');
 
 
+
 *{
     padding: 0;
     margin: 0;
@@ -573,6 +574,7 @@ svg {
     
 }
 
+/*-----------Section Six-----------------*/
 .six {
     margin: 100px 0;
 }
@@ -584,9 +586,10 @@ svg {
 }
 
 .six .wrapper .left {
-    height: 500px;
+    height: 400px;
     overflow: hidden;
     position: relative;
+    
 }
 .six .wrapper .card {
     position: relative;
@@ -594,33 +597,13 @@ svg {
     margin-bottom: 20px;
     padding: 13px;
     animation: moving 20s linear infinite;
-}
-
-
-.six .wrapper .card3, .six .wrapper .card4 {
-    width: 400px;
-    height: 150px;
+    width: 420px;
     background: #f9f9f9;
 }
-
-.six .wrapper .card1 {
-    width: 400px;
-    height: 450px;
-    
-    background: #f9f9f9;
-}
-
-.six .wrapper .card2 {
-    width: 400px;
-    height: 250px;
-    
-    background: #f9f9f9;
-}
-
-
 
 .six .wrapper img {
     width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     flex-wrap: wrap;
@@ -634,17 +617,22 @@ svg {
 
 
 .six .wrapper .left p {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 .six .wrapper .left small {
     font-size: 12px;
     display: flex;
     justify-content: flex-end;
+    color: #706d6d;
+    font-weight: 500;
 }
 
 .six .wrapper .left h6 {
     font-size: 14px;
+    line-height: 2;
     font-weight: bold;
 }
 
@@ -652,16 +640,53 @@ svg {
     padding-top: 50px;
 }
 
-.six .wrapper .right h2 {
-    font-size: 30px;
-    /* padding-bottom: 20px; */
-}
-
 .six .wrapper .right p {
     width: 420px;
     padding: 30px 0;
     font-size: 17px;
-    line-height: 25px;
+    line-height: 1.75;
+}
+
+.customers{
+    font-family: "U8";
+    font-size: 36px;
+    color: black;
+    font-weight: bolder;
+}
+
+.free-button {
+    padding: 16px 30px;
+    background: #0c1825;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.free-button a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.side {
+    display: flex;
+    gap: 20px;
+}
+.side button {
+    padding: 16px 16px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.side button:hover {
+    transform: translateY(-10px);
+}
+
+.side button i {
+    font-size: 22px;
 }
 
 @keyframes moving {
@@ -670,7 +695,7 @@ svg {
     }
 
     100% {
-        top: -600px
+        top: -300px
     }
 }
 

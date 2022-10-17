@@ -13,18 +13,7 @@ body {
     font-size: 16px;
 }
 
-.invest-link>a{
-    color: #7913e5;    
-}
-
-
-
-/* -----------Main Content----------- */
-/* .container{
-    margin-top: 3em;
-} */
-
-/* Intro */
+/*---------------Intro------------*/
 .intro{
     padding: 4em 1em;
     margin: 0.5em 0;
@@ -43,9 +32,10 @@ body {
     font-weight: 800;
 }
 
-.invest-go{
+.piggybank{
     width: 80%;
     font-size: 60px;
+    line-height: 1.5;
 }
 
 .intro-text{
@@ -62,9 +52,9 @@ body {
     text-decoration: none;
     color: white;
     padding: 1em 1.5em;
-    background-color: #7913e5;
+    background-color: #2295f2;
     font-weight: 600;
-    border: 1px solid #7913e5;
+    border: 1px solid #2295f2;
     border-radius: 10px;
     margin: 5em 0;
 
@@ -79,7 +69,7 @@ body {
 }
 
 .smaller {
-    width: 70%;
+    width: 13.5em;
 }
 
 .intro-images{
@@ -92,46 +82,55 @@ body {
 
 .intro-right .intro-images .card01 {
     position: absolute;
-    top: 30%;
-    left: -30%;
+    width: 23em;
+    top: 31%;
+    left: -34%;
 
 }
 
 .intro-right .intro-images .card02 {
     position: absolute;
-    top: 55%;
-    left: -30%;
+    width: 23em;
+    top: 56%;
+    left: -34%;
 
 }
 
 .cross{
     position: absolute;
-    bottom: 95%;
-    right: 95%;
+    top: -7%;
+    left: -10%;
 }
 
-.dots{
+.circle{
     position: absolute;
-    font-size: 40px;
-    bottom: 60%;
-    left: 62%;
+    top: 93%;
+    left: 60%;
+}
+
+.dot{
+    position: absolute;
+    top: 25%;
+    left: 63%;
 }
 
 /* -------Types------- */
 .types{
+    margin-top: 3em;
     margin-bottom: 7em;
 }
 .type-header{
-    font-size: 50px;
+    font-size: 53px;
+    font-weight: 700;
     text-align: center;
 }
 
 .types> p{
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 
-.invest-type{
+.savings-type{
     margin-top: 3em;
     display: flex;
     justify-content: center;
@@ -139,7 +138,7 @@ body {
 
 .each-type{
     background-color: #f9f9f9;
-    width: 27%;
+    width: 28%;
     margin: 1.5em 2%;
     padding: 2em;
     border-radius: 20px;
@@ -153,17 +152,17 @@ body {
     margin: 1em 0;
 }
 
-.invest-image{
+.savings-image{
     width: 3em;
     margin-bottom: 1em;
 }
 
-.invest-info{
+.savings-info{
     font-size: 16px;
     line-height: 1.75;
 }
 
-/* -------Info Section----- */
+/*-----------------Info Section-----------------*/
 .information{
     display: flex;
     justify-content: center;
@@ -172,28 +171,29 @@ body {
 }
 
 .info-text{
-    width: 60%;
-    background-color: #7913e5;
-    padding: 4em;
+    width: 55%;
+    background-color: #2295f2;
+    padding: 6em 4em;
 }
 
 .info-header{
-    font-size: 40px;
-    width: 90%;
+    font-size: 45px;
+    width: 80%;
     font-weight: 900;
     color: #fff;
     line-height: 1.5;
 }
 
 .info-info{
-    width: 75%;
+    width: 83%;
     color: white;
+    font-size: 17px;
     line-height: 1.5;
 }
 
 .info-image{
-   width: 40%;
-   background-image: url("https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/image_10ee373879/image_10ee373879.png"); 
+   width: 45%;
+   background-image: url("https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/image_2baa78cfe9/image_2baa78cfe9.png"); 
    background-repeat: no-repeat; 
    background-size: cover; 
    background-position: center center;
@@ -202,131 +202,6 @@ body {
 .info-image>img{
     width: 100%;
     height: 100%;
-}
-
-/* -------Opportunities------- */
-/* .opportunities{
-    
-} */
-
-.feature-header{
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.invest-features{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.opportunities-type{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    margin: 1em;
-    border-radius: 20px;
-    background-color: #f9f9f9;
-}
-
-.opportunities-type:hover{
-    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2);
-    transition-duration: 1s;
-}
-
-.opportunities-image{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 100%;
-    height: 120px;
-}
-
-.image1{
-    background-image: url("./images/invest/thumb1.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image2{
-    background-image: url("./images/invest/thumb2.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image3{
-    background-image: url("./images/invest/thumb3.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.image4{
-    background-image: url("./images/invest/thumb4.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image5{
-    background-image: url("./images/invest/thumb5.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.image6{
-    background-image: url("./images/invest/thumb6.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.feature-content{
-    padding: 1em 2em;
-    padding-bottom: 3em;
-}
-
-.feature-topic{
-    font-family: "U8";
-    font-size: 18px;
-    font-weight: 800;
-    color: black;
-    margin: 1em 0;
-    line-height: 1.5;
-}
-
-.feature-component{
-    display: flex;
-    padding-bottom: 2em;
-}
-
-.insider{
-    width: 50%;
-    line-height: 1.5;
-}
-
-.feature-component > div> span{
-    font-family: "U8";
-    font-weight: bolder;
-}
-
-.feature-link{
-    font-weight: bolder;
-    padding: 0.75em;
-    border-radius: 20px;
-    color: rgb(63, 154, 63);
-    background-color: rgba(63, 154, 63, 0.067);
-}
-
-.feature-link:hover{
-    color: rgb(54, 114, 54);
-    background-color: rgba(63, 154, 63, 0.067);
-}
-
-.sold-out{
-    color: rgb(179, 46, 88);
-    background-color: rgba(179, 46, 88, 0.067);
-}
-
-.sold-out:hover{
-    color: rgb(135, 55, 81);   
-    background-color: rgba(179, 46, 88, 0.067);
 }
 
 
