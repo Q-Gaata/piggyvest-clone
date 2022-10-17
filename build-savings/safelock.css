@@ -1,0 +1,360 @@
+@import url('https://db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif!important;
+    color: #353535;
+    font-size: 16px;
+}
+
+/*---------------Intro------------*/
+.intro{
+    padding: 4em 1em;
+    margin: 0.5em 0;
+    display: flex;
+} 
+
+.intro-left{
+    width: 60%;
+    margin: auto 0 auto 3em ;
+}
+
+.big-header{
+    font-size: 60px;
+    font-family: "U8";
+    color: black;
+    font-weight: 800;
+}
+
+.piggybank{
+    width: 80%;
+    font-size: 60px;
+    line-height: 1.5;
+}
+
+.intro-text{
+    margin-bottom: 10px;
+    color: #353535;
+    font-size: 16.5px;
+}
+
+.savings-container{
+    margin: 2em 0;
+}
+
+.savings{
+    text-decoration: none;
+    color: white;
+    padding: 1em 1.5em;
+    background-color: #2295f2;
+    font-weight: 600;
+    border: 1px solid #2295f2;
+    border-radius: 10px;
+    margin: 5em 0;
+
+}
+
+.intro-right{
+    width: 40%;
+}
+
+.main-image{
+    width: 60%;
+}
+
+.smaller {
+    width: 13.5em;
+}
+
+.intro-images{
+    margin-left: 1em;
+}
+
+.intro-right .intro-images {
+    position: relative;
+}
+
+.intro-right .intro-images .card01 {
+    position: absolute;
+    width: 23em;
+    top: 31%;
+    left: -34%;
+
+}
+
+.intro-right .intro-images .card02 {
+    position: absolute;
+    width: 23em;
+    top: 56%;
+    left: -34%;
+
+}
+
+.cross{
+    position: absolute;
+    top: -7%;
+    left: -10%;
+}
+
+.circle{
+    position: absolute;
+    top: 93%;
+    left: 60%;
+}
+
+.dot{
+    position: absolute;
+    top: 25%;
+    left: 63%;
+}
+
+/* -------Types------- */
+.types{
+    margin-top: 3em;
+    margin-bottom: 7em;
+}
+.type-header{
+    font-size: 53px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.types> p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.savings-type{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.each-type{
+    background-color: #f9f9f9;
+    width: 28%;
+    margin: 1.5em 2%;
+    padding: 2em;
+    border-radius: 20px;
+}
+
+.title{
+    font-family: "U8";
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin: 1em 0;
+}
+
+.savings-image{
+    width: 3em;
+    margin-bottom: 1em;
+}
+
+.savings-info{
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+/*-----------------Info Section-----------------*/
+.information{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: 6em;
+}
+
+.info-text{
+    width: 55%;
+    background-color: #2295f2;
+    padding: 6em 4em;
+}
+
+.info-header{
+    font-size: 45px;
+    width: 80%;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.info-info{
+    width: 83%;
+    color: white;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.info-image{
+   width: 45%;
+   background-image: url("https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/image_2baa78cfe9/image_2baa78cfe9.png"); 
+   background-repeat: no-repeat; 
+   background-size: cover; 
+   background-position: center center;
+}
+
+.info-image>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-----------Section Six-----------------*/
+.six {
+    margin: 100px 0;
+}
+
+.six .wrapper {
+    display: flex;
+    gap: 100px;
+    padding: 0 70px;
+}
+
+.six .wrapper .left {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.six .wrapper .card {
+    position: relative;
+    top: 0%;
+    margin-bottom: 20px;
+    padding: 13px;
+    animation: moving 20s linear infinite;
+    width: 420px;
+    background: #f9f9f9;
+}
+
+.six .wrapper img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.six .wrapper .profile {
+    display: flex;
+    gap: 20px;
+    padding-top: 14px;
+}
+
+
+.six .wrapper .left p {
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.six .wrapper .left small {
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    color: #706d6d;
+    font-weight: 500;
+}
+
+.six .wrapper .left h6 {
+    font-size: 14px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.six .wrapper .right {
+    padding-top: 50px;
+}
+
+.six .wrapper .right p {
+    width: 420px;
+    padding: 30px 0;
+    font-size: 17px;
+    line-height: 1.75;
+}
+
+.customers{
+    font-family: "U8";
+    font-size: 36px;
+    color: black;
+    font-weight: bolder;
+}
+
+.free-button {
+    padding: 16px 30px;
+    background: #0c1825;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.free-button a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.side {
+    display: flex;
+    gap: 20px;
+}
+.side button {
+    padding: 16px 16px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.side button:hover {
+    transform: translateY(-10px);
+}
+
+.side button i {
+    font-size: 22px;
+}
+
+@keyframes moving {
+    0% {
+        top: 0px
+    }
+
+    100% {
+        top: -300px
+    }
+}
+
+/* ---------Section Seven-------- */
+.seven {
+    background: #f9f9f9;
+}
+
+.seven .wrapper {
+    display: flex;
+    gap: 200px;
+    padding: 60px 100px;
+
+}
+
+.seven .wrapper .left h2 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.seven .wrapper .right {
+    display: flex;
+    gap: 50px;
+}
+.seven .wrapper .right .image {
+    width: 150px;
+}
+
+.seven .wrapper .right .image  img {
+    width: 100%;
+}
