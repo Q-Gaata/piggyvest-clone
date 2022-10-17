@@ -329,6 +329,7 @@ body {
     background-color: rgba(179, 46, 88, 0.067);
 }
 
+
 /*-----------Section Six-----------------*/
 .six {
     margin: 100px 0;
@@ -341,7 +342,7 @@ body {
 }
 
 .six .wrapper .left {
-    height: 500px;
+    height: 400px;
     overflow: hidden;
     position: relative;
     
@@ -352,33 +353,13 @@ body {
     margin-bottom: 20px;
     padding: 13px;
     animation: moving 20s linear infinite;
-}
-
-
-.six .wrapper .card3, .six .wrapper .card4 {
-    width: 400px;
-    height: 150px;
+    width: 420px;
     background: #f9f9f9;
 }
-
-.six .wrapper .card1 {
-    width: 400px;
-    height: 450px;
-    
-    background: #f9f9f9;
-}
-
-.six .wrapper .card2 {
-    width: 400px;
-    height: 250px;
-    
-    background: #f9f9f9;
-}
-
-
 
 .six .wrapper img {
     width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     flex-wrap: wrap;
@@ -392,17 +373,22 @@ body {
 
 
 .six .wrapper .left p {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 .six .wrapper .left small {
     font-size: 12px;
     display: flex;
     justify-content: flex-end;
+    color: #706d6d;
+    font-weight: 500;
 }
 
 .six .wrapper .left h6 {
     font-size: 14px;
+    line-height: 2;
     font-weight: bold;
 }
 
@@ -465,7 +451,7 @@ body {
     }
 
     100% {
-        top: -600px
+        top: -300px
     }
 }
 
