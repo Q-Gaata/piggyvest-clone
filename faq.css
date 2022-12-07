@@ -20,6 +20,38 @@ body {
 /*---------FAQ Intro------------*/
 .intro{
     text-align: center;
+    min-height: 420px;
+    background: #f9f9f9;
+    position: relative;
+}
+
+.intro .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.intro h1 {
+    font-family: 'U8';
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.intro .inp {
+    max-width: 870px;
+    margin: auto;
+}
+.intro input {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #8495b1;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 16px;
 }
 
 .faq-header{
@@ -36,6 +68,81 @@ body {
     border-radius: 10px;
     padding: 0.5em 2em;
 }
+
+/* ******Main Section******* */
+.main-section .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.main-section .container .left {
+    flex-basis: 25%;
+    padding: 15px 15px 0 15px;
+    border: 1px solid rgba(132,149,177,.3);
+    border-radius: 15px;
+    overflow: scroll;
+    flex-wrap: wrap;
+}
+
+.main-section .container .left li {
+    font-size: 18px;
+    font-family: 'U8', sans-serif;
+    transition: all 0.5s ease;
+    padding: 10px;
+}
+
+.main-section .container .left li:hover {
+    font-weight: 700;
+    padding-left: 30px;
+    background: #ededee;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.main-section .container .right {
+    flex-basis: 70%;
+}
+
+.main-section .item {
+    cursor: pointer;
+}
+
+.main-section .container .right .item-first {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(132,149,177,.3);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.main-section .container .right .item-first h3 {
+    font-size: 30px;
+    font-family: 'U8', sans-serif;
+    font-weight: 400;
+}
+.main-section .item .item-second{
+    padding-top: 30px;
+    padding-left: 50px;
+    display: none;
+}
+
+.main-section .item.open .item-second {
+    display: block;
+}
+
+.main-section .container .right .item-second h3 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.main-section .container .right .item-second p{
+    padding-bottom: 20px;
+}
+
 
 /*-------------Stories Info---------*/
 .stories-info{

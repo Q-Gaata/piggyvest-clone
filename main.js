@@ -1,9 +1,18 @@
+const allItem = document.querySelectorAll('.main-section .item')
 
+
+const hover = document.getElementById('hoverr')
+const dropDown = document.querySelector('.drop')
 let divCard = document.querySelector('#divcard')
 let divCardSimple = document.querySelectorAll('.right .card')
 let lastItems = document.querySelectorAll('.last-item')
 
 
+allItem.forEach(item => {
+    item.addEventListener('click', () => {
+     item.classList.toggle('open')
+    })
+ })
 
 window.addEventListener('scroll', () => {
     var header = document.querySelector('header')
@@ -80,7 +89,7 @@ cardAnimation()
 
 window.addEventListener('scroll', () => {
     let featureAnimate = document.querySelectorAll('.reveal')
-   featureAnimate.forEach((feature) => {
+    featureAnimate.forEach((feature) => {
     let windowHeight = window.innerHeight;
     let featureTop = feature.getBoundingClientRect().top;
     let windowPoint = 150;
@@ -117,6 +126,25 @@ window.addEventListener('scroll', () => {
     }
    })
 })
+
+hover.addEventListener('mouseover', () => {
+    dropDown.style.visibility = 'visible'
+})
+
+dropDown.addEventListener('mouseover', () => {
+    dropDown.style.visibility = 'visible'
+})
+
+hover.addEventListener('mouseleave', () => {
+    dropDown.style.visibility = 'hidden'
+})
+dropDown.addEventListener('mouseleave', () => {
+    dropDown.style.visibility = 'hidden'
+})
+
+
+
+
 
 
 

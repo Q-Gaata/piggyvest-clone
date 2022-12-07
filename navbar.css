@@ -1,13 +1,16 @@
 
 /* Header and navbar */
 
+header {
+    background: #fff;
+}
 nav{
     display: flex;
     text-align: center;
-    padding: 1em;
+    padding: 20px 0;
     font-size: 17px;
-    width: 100%;
-    background-color: #fff;
+    max-width: 1250px;
+    margin: 0 auto;
 }
 
 .sticky {
@@ -50,6 +53,7 @@ nav{
 
 .user{
     display: flex;
+    margin-left: 40px;
 }
 
 .sign-in-button{
@@ -62,6 +66,7 @@ nav{
     font-weight: 600;    
     transition: border .8s,color .8s;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .sign-in-button:hover{
@@ -77,6 +82,7 @@ nav{
     border-radius: 10px;
     font-weight: 600;
     font-size: 16px;  
+    cursor: pointer;
 }
 
 .register-button:hover{
